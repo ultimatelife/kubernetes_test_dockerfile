@@ -1,0 +1,12 @@
+{
+  "name": "kubernetes-test-dockerfile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node test.js",
+    "docker_build": "docker build -t kubernetes_test_dockerfile:0.1 ./"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
